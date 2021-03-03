@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="jpname.jpg" type="image/x-icon">
+	<title>Jay Prakash</title>
+	<style >
+	body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+    .bi-1,.bi-2,.bi-3,.bi-4,.bi-5{
+    	position: relative;
+    	opacity: 1;
+    	background-attachment: fixed;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
+    }
+	.bi-1{
+			background-image: url("2.jpg");
+			min-height: 100%;
+	}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  animation: slide-up 1s;
+}
+.caption span.border {
+  background-color: none;
+  
+  padding: 18px;
+  font-size: 35px;
+  letter-spacing: 6px;
+  transition: all 1s ease-in-out;
+}
+ .border:hover{
+ 	border: 5px solid black;
+ 	border-radius: 50px;
+ 	background-color: white;
+	color:black;
+	cursor: pointer;
+	transition: 0.9s;
+	text-shadow: 0px 8px 9px rgba(0, 0, 0, 0.6);
+}
+
+.caption1 {
+  position: absolute;
+  left: 0;
+  top: 53%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  animation: slide-up 1s;
+}
+.caption1 span.border {
+  background-color: none;
+  padding: 18px;
+  font-size: 35px;
+  letter-spacing: 6px;
+  transition: all 1s ease-in-out;
+}
+
+.caption2 {
+  position: absolute;
+  left: 0;
+  top: 85%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  animation: slide-up 1s;
+}
+
+.about p{
+	line-height: 28px;
+	animation: slide-right 2s;
+	animation-delay: 1s;
+}
+@keyframes slide-left{
+	from{
+		margin-left: 100%;
+		width: 300%;
+	}
+	to{
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+@keyframes slide-up{
+	from{
+		margin-top:  -100%;
+		height: 300%;
+	}
+	to{
+		margin-top: 0%;
+		height: 100%;
+	}
+}
+@keyframes slide-right{
+	from{
+		margin-left: -100%;
+		width: 300%;
+	}
+	to{
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+
+.bi-2{
+	background-image: url("dustin-lee-19667-unsplash.jpg");
+	min-height: 100%
+}
+.hobby p{
+	line-height: 28px;
+}
+.hobby{
+	color: #FBFCFC;
+
+}
+.bi-3{
+	background-image: url("levi-bare-290789-unsplash.jpg");
+	min-height: 100%;
+}
+.bi-4{
+	background-image: url("tobias-van-schneider-230172-unsplash.jpg");
+	min-height: 100%;
+}
+.bi-5{
+	background-image: url("sarah-dorweiler-211779-unsplash.jpg");
+	min-height: 100%;
+}
+.box{
+	width: 600px;
+	height: 340px;
+	text-align: center;
+	padding-left:  0px;
+	padding-top: 50px;
+	color: black;
+	background-image: url("jpname.jpg");
+	border-radius: 50px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 40%;
+	left: 50%;
+	font-size: 20px;
+	animation-delay: 2s;
+}
+.caption2 a:nth-child(2) {
+  color: pink;
+}
+.caption2 a:nth-child(3) {
+  color: #090909;
+}
+.caption2 a:nth-child(4) {
+  color: #5CA6F3;
+}
+.caption2 i {
+  padding: 10px;
+  text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+  transition: all ease-in-out 150ms;
+}
+.caption2 i:hover {
+  margin-top: -3px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
+.caption1 a{
+
+}
+.box .contact .p1:hover,.box .contact .p2:hover,.box .contact .p3:hover{
+		color:#720B03;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+.box:hover{
+	box-shadow: 0px 10px 18px rgba(0,0,0,1.0);
+}
+@media screen and (max-width: 768px){
+	.bi-1{
+		margin: 0;
+		background-image: url("1.jpg");
+		background-size: cover;
+		
+	}
+	.caption span.border{
+	font-size: 25px;	
+	}
+	.caption1 span.border{
+	font-size: 25px;	
+	}
+
+
+}
+
+	</style>
+
+</head>
+<body>
+	<div class="bi-1">
+		<a href="resume.pdf">
+		<div class="caption">
+  			<span class="border" data-wow-delay="0.6s">Resume</span>
+  		</div>
+  	    </a>
+  		<a href="project.html">
+  		<div class="caption1">
+  			
+  			<span class="border" data-wow-delay="0.6s"> Projects</span>
+
+  		</div>
+  		<a href="project.html">
+  		<div class="caption2">
+  			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+			<p>
+				<a href="https://www.instagram.com/jay.prakash.17/" class="instagram"><i class="fa fa-2x fa-instagram"></i></a>
+				<a href="https://github.com/jpvaishnav"><i class="fa fa-2x fa-github"></i></a>
+	   			<a href="https://www.linkedin.com/in/jay-prakash-vaishnav-83791b171"><i class="fa fa-2x fa-linkedin-square"></i></a>
+	   			
+			</p>
+            <p>
+            	&copy: 2021 <strong>JP</strong>
+            </p>
+  		</div>
+	</div>
+<!-- 	
+<div class="bi-5">
+	<form class="box" style="">
+		<div class="contact" data wow delay="0.6s">
+			<p class="p1"><i class="fa fa-envelope" aria-hidden="true"></i>
+prakash.3@iitj.ac.in</p>
+			<p class="p2"><i class="fa fa-envelope" aria-hidden="true"></i>
+jayprakshv1131@gmail.com</p>
+			<p class="p3"><i class="fa fa-phone" aria-hidden="true"></i>
+7427085284</p>
+			<hr style="color: black;">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+			<p>
+				<a target="_blank" href="https://www.facebook.com/jayprakash.vaishnav.14"><i class="fa fa-2x fa-facebook-square"></i></a>
+				<a href="https://github.com/jpvaishnav"><i class="fa fa-2x fa-github"></i></a>
+	   			<a href="https://www.linkedin.com/in/jay-prakash-vaishnav-83791b171"><i class="fa fa-2x fa-linkedin-square"></i></a>
+			</p>
+            <p>
+            	&copy: 2019 <strong>JP</strong> All Rights Reserved
+            </p>
+		</div>
+		
+	</form>
+</div>
+-->
+</body>
+</html>
